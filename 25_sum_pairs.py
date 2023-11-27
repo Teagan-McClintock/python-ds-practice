@@ -21,3 +21,13 @@ def sum_pairs(nums, goal):
         >>> sum_pairs([11, 20, 4, 2, 1, 5], 100)
         ()
     """
+
+    i = 1
+    while i < len(nums):
+        for num in nums[:i:]:
+            if nums[i] + num == goal:
+                return (num, nums[i])
+        i += 1
+    return ()
+
+    # Find leftmost number that has a number to its left that sums to goal
