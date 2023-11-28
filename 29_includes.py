@@ -44,6 +44,7 @@ def includes(collection, sought, start=None):
                 return True
         return False
 
+    # can say "return + conditional" instead of if statement
 
 
 

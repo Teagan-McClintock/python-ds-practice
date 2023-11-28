@@ -15,3 +15,6 @@ def titleize(phrase):
         titled_phrase.append(title)
 
     return " ".join(titled_phrase)
+
+    # method called capitalize
+    # method called title if you do phrase.title()
